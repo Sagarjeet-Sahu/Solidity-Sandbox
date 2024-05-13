@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solidity Sandbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Project Structure</h2>
+            <button onclick="createFile()">New File</button>
+            <button onclick="createFolder()">New Folder</button>
+            <div id="projectStructure"></div>
+        </div>
+        <div class="main">
+            <h2>Code Editor</h2>
+            <textarea id="codeEditor" placeholder="Write your Solidity code here..."></textarea>
+            <button onclick="compile()">Compile</button>
+            <div id="outputPanel"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
